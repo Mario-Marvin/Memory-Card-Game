@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <h1>Memory Card Game</h1>
+        <p>Test your memory skills! Follow the sequence of flipped cards and try to replicate it. The sequence gets longer with every round. How far can you go?</p>
+        <button id="splash-start-button">Start Game</button>
+    </div>
+
+    <!-- Main Game Content -->
+    <header style="display: none;">
+        <h1>Memory Card Game</h1>
+    </header>
+    <main style="display: none;">
+        <div id="game-info">
+            <p>Score: <span id="score">0</span></p>
+            <button id="start-button">Start</button>
+        </div>
+        <div id="game-board">
+            <!-- Cards will be generated dynamically -->
+        </div>
+    </main>
+    <footer style="display: none;">
+        <p>Made with ❤️ by GROUP12</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
